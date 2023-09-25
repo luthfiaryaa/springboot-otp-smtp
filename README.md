@@ -19,7 +19,7 @@ This application is an example implementation of OTP (One-Time Password) verific
 
 ### 2. Verify Account
 
-- **Endpoint**: `POST http://localhost:8080/api/verify-account
+- **Endpoint**: `POST http://localhost:8080/api/verify-account1`
 - **Request Body**:
   ```json
   {
@@ -29,7 +29,7 @@ This application is an example implementation of OTP (One-Time Password) verific
 
 ### 3. Regenerate OTP
 
-- **Endpoint**: `POST http://localhost:8080/api/regenerate-otp
+- **Endpoint**: `POST http://localhost:8080/api/regenerate-otp`
 - **Request Body**:
   ```json
   {
@@ -38,7 +38,7 @@ This application is an example implementation of OTP (One-Time Password) verific
 
 ### 4. Login
 
-- **Endpoint**: `POST http://localhost:8080/api/login
+- **Endpoint**: `POST http://localhost:8080/api/login`
 - **Request Body**:
   ```json
   {
